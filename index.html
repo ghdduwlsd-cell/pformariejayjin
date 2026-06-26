@@ -266,7 +266,7 @@ Error generating stack: `+a.message+`
 .sp-scroll-cal{ display:flex; flex-direction:column; gap:24px; }
 .sp-month-block{ scroll-margin-top:6px; }
 .sp-month-label{ font-family:var(--font-sans); font-size:18px; font-weight:800; letter-spacing:-.01em; margin-bottom:8px; color:var(--ink); }
-.sp-grid{ display:grid; grid-template-columns:repeat(7,1fr); grid-template-rows:auto repeat(6,minmax(94px,auto)); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+.sp-grid{ display:grid; grid-template-columns:repeat(7,1fr); grid-template-rows:auto repeat(6,minmax(clamp(94px,13vh,150px),auto)); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
 .sp-wd{ background:var(--panel); text-align:center; padding:5px 0; font-size:11px; font-family:var(--font-mono); color:var(--muted); letter-spacing:.08em; font-weight:800; }
 .sp-wd.sun{ color:var(--sun); } .sp-wd.sat{ color:var(--sat); }
 .sp-cell{ background:var(--panel); padding:4px 5px; display:flex; flex-direction:column; gap:2px; min-height:74px; overflow:hidden; transition:.1s; position:relative; }
