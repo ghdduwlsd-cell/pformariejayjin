@@ -1,0 +1,12 @@
+{
+  "name": "스튜디오 플래너",
+  "short_name": "플래너",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0B0B0A",
+  "theme_color": "#0B0B0A",
+  "icons": [
+    { "src": "peach-icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "peach-icon.png", "sizes": "192x192", "type": "image/png", "purpose": "any" }
+  ]
+}
